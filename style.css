@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #a5a5a5;
 }
+
 
 /* Cuidar do menu home */
 .menu-home {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 2000px;
+    margin: auto;
     padding: 0 2%;
+    background-color:black
 }
 
 /* Cuidar dos textos */
@@ -33,12 +36,15 @@ header a {
     /* Arredondar imagens na div "Images" e mudar o tamanho da imagem */
 .images img {
     border-radius: 50%;
-    max-width: 350px
+    max-width: 350px;
 }
 
 .images img, a {
     display: inline-block;
+    vertical-align: middle;
+
 }
+
 
 
     /* Arredondar imagens na div "projetos" e mudar o tamanho da imagem */
