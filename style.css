@@ -9,6 +9,20 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.images {
+    position: flex;
+    width: 2500px;
+    height: 500px;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
 /* Cuida da animação de menu de contatos inferior */
 .wrapper {
     display: flex;
@@ -18,7 +32,7 @@ body {
 }
 
 .wrapper .icon i {
-    color: #fff;
+    color: rgb(0, 0, 0);
     transition: .4s linear;
 }
 
@@ -67,12 +81,18 @@ body {
     cursor: pointer
 }
 
+.carousel-inner img {
+    align-items: center;
+    max-width: 350px;
+    max-height: 350px;
+}
+
     /* Criar animação de sair texto das imagens */
 .wrapper .tooltip {
     position: absolute;
     top: 0;
     font-size: 14px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 5px 8px;
     border-radius: 5px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);

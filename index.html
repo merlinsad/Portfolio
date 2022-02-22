@@ -3,48 +3,50 @@
     <head>
         <title> Home </title>
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="style2.scss" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
     <body>  
         <header>
-            <div class="menu-home">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                            <a href="othersWebs/projetos/projetos.html">Projetos</a>
-                            <a href="#">Jogo</a>
-                            <a href="othersWebs/contato/contatos.html">Contato</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <nav>
+                <a>Projetos</a>
+                <a>Contatos</a>
+                <a>Sobre mim</a>
+            </nav>
         </header>
         <br><br><br><br><br><br>
-        <div class="images">
-            <div class="cat-reading">
-                <a align="center"> <img src="imgs/tenor.gif" align="left">
-                    Opa, olá, eu não vi você ai, me chamo Vinícius mas 
-                    pode me chamar de Viní. Criei esta página com o intuíto 
-                    de poder apresentar da melhor maneira, um pouco de mim 
-                    para os outros, me tornando mais acessível, 
-                    tentei deixar um pouco de mim, então espero que goste.</a>
-            </div>
-            <br>
-            <div class="cat-typing">
-                <a><img src="imgs/tenor (1).gif" align="right"> 
-                    Na maior parte do tempo, eu estou igual a este gato lindo ao meu lado, e por que um gato? 
-                    Eu amo gatos, e a propósito tenho 2, e um deles se chama "Code” 
-                    entendeu? Por causa de código.... Enfim, amo o que faço, e 
-                    amo desvendar novas maneiras de me aprimorar, admito que no 
-                    começo de tudo tentava ao máximo ficar longe de Front-End, 
-                    porque vou ser sincero, eu choro tentando centralizar uma div, 
-                    porém com o tempo, fui descobrindo que não é de todo mal, e acabei 
-                    me tornando Full Stack. Amo criar coisas diferentes do que geralmente se encontra por aí, 
-                    sou apaixonado por leitura, além de amar cozinhar, tanto que me planejo para poder fazer uma 
-                    graduação em algo voltado para gastronomia, pois amo toda essa mistura doida que transforma um monte 
-                    de coisas em um prato de comida incrivel.</a>
-            </div>
-        </div>
+        <main>
+            <section>
+                <div class="cat-reading">
+                    <a align="center"> <img src="imgs/tenor.gif" align="left">
+                        Opa, olá, eu não vi você ai, me chamo Vinícius mas 
+                        pode me chamar de Viní. Criei esta página com o intuíto 
+                        de poder apresentar da melhor maneira, um pouco de mim 
+                        para os outros, me tornando mais acessível, 
+                        tentei deixar um pouco de mim, então espero que goste.</a>
+                </div>
+            </section>
+            
+            <section>
+                <div class="cat-typing">
+                    <a float="left"><img src="imgs/tenor (1).gif" align="right"> 
+                        Na maior parte do tempo, eu estou igual a este gato lindo ao meu lado, e por que um gato? 
+                        Eu amo gatos, e a propósito tenho 2, e um deles se chama "Code” 
+                        entendeu? Por causa de código.... Enfim, amo o que faço, e 
+                        amo desvendar novas maneiras de me aprimorar, admito que no 
+                        começo de tudo tentava ao máximo ficar longe de Front-End, 
+                        porque vou ser sincero, eu choro tentando centralizar uma div, 
+                        porém com o tempo, fui descobrindo que não é de todo mal, e acabei 
+                        me tornando Full Stack. Amo criar coisas diferentes do que geralmente se encontra por aí, 
+                        sou apaixonado por leitura, além de amar cozinhar, tanto que me planejo para poder fazer uma 
+                        graduação em algo voltado para gastronomia, pois amo toda essa mistura doida que transforma um monte 
+                        de coisas em um prato de comida incrivel.</a>
+                </div>
+            </section>
+        </main>
         <br><br><br><br>
         <p align="center">Minha introdução ficou um pouco grande demais, 
             mas se tiver qualquer dúvida, ou queira me conhecer mais, 
@@ -52,27 +54,7 @@
             novamente. 
             Fique com alguns projetinhos aqui em baixo meus.</p>
             <br><br><br><br><br>
-        <div class="container">
-            <div class="coluna">
-                <img src="imgs/projeto-spaceinvader/logo.png">
-                <p>Space Invaders</p>
-                <br>
-                <p>Projeto feito em python, utilizando a biblioteca "Pygame", <br>inspirado em um dos mais<br> clássicos jogos da década dos anos 70...</p>
-            </div>
-            <div class="coluna">
-                <img src="imgs/projeto-rpg/logo.jpg" href="#">
-                <p>RPG</p>
-                <br>
-                <p>Um jogo criado através da ideia de ter <br>inumeras possibilidades de caminhos em que todos levam ao mesmo fim. <br>Um fim compartilhado, independente da escolha... Será?</p>
-            </div>
-            <div class="coluna">
-                <img src="imgs/projeto-rh/logo3.png.jpg" href="#">
-                <p>Gestão de RH</p>
-                <br>
-                <p>Um projeto baseado em criar uma plataforma de gestão de RH, <br>permitindo realizar alterações em <br>departamentos, funcionários e empresas.</p>
-                <br>
-            </div>
-        </div>
+        
         <br><br><br><br><br><br><br>
         <div class="wrapper">
             <div class="icon instagram">
@@ -85,11 +67,15 @@
                 <img src="imgs/github.png" width=30>
                 <span><i class="fab fa-github"></i></span>
             </div>
-            <div class="icon linkedin">
+                <div class="icon linkedin">
                 <div class="tooltip">Linkedin</div>
-                <img src="imgs/linkedin.png" width=30>
-                <span><i class="fab fa-linkedin"></i></span>
+                    <img src="imgs/linkedin.png" width=30>
+                    <span><i class="fab fa-linkedin"></i></span>
+                </div>
             </div>
-        </div>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
+
